@@ -1,6 +1,12 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\RegisternController;
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\HttpKernel\DependencyInjection\RegisterControllerArgumentLocatorsPass;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +19,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'index']);
+
+// Login Routes
+Route::get('/login_furniture', [LoginController::class, 'login']);
+
+//Register Routes
+Route::get('/register_furniture', [RegisterController::class, 'register']);
+
+//Dashboard Routes 
+Route::get('dashboard_furniture', [DashboardController::class, 'Dashboard']);
