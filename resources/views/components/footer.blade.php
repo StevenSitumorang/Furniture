@@ -73,7 +73,6 @@
         </div>
 
         <hr class="h-px my-8 bg-gray-200 border-none dark:bg-gray-700">
-
         <div class="text-center mb-0">
             <p>© Copyrights 2024 Polibatam</p>
         </div>

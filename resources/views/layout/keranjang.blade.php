@@ -8,8 +8,6 @@
     <link href="stylesheet" href="https://cdn.tailwindcss.com/3.4.1">
     <link href="stylesheet" href="/styles/tailwindcss3.4.1.js">
     <link href="stylesheet" href="/styles/style.css">
-
-
 </head>
 
 <body>

@@ -11,8 +11,8 @@
   <div class="shopping-cart w-3/4 mx-auto">
     <div class="product-header flex font-bold pb-4">
     <div class="flex-1 ml-10 mr-60">PRODUK</div>
-      <div class="flex-1 text-center ml-20">JUMLAH</div> <!-- Mengurangi margin kiri -->
-      <div class="flex-1 text-center mr-40">HARGA</div> <!-- Mengurangi margin kanan -->
+      <div class="flex-1 text-center ml-20">JUMLAH</div> 
+      <div class="flex-1 text-center mr-40">HARGA</div> 
     </div>
 
     <!-- Ulangi blok produk ini untuk setiap produk --> 

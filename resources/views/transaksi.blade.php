@@ -3,6 +3,7 @@
 @section('title', 'Aplikasi Web Penjualan Furniture')
 
 @section('content')
+
 <div class="main px-20 py-10">
 <div class="checkout-container flex justify-between mx-40">
   <div class="checkout-section billing-details w-full md:w-3/5 mb-4 md:mb-0 mr-10">

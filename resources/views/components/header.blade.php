@@ -20,5 +20,4 @@
       <li><a href="#"><i class="bi bi-person text-white"></i></a></li>
     </ul>
   </div>
-  
 </div>
