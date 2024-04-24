@@ -9,5 +9,6 @@ class Transaksi extends Controller
     public function Transaksi()
     {
         return view('transaksi');
+        
     }
 }

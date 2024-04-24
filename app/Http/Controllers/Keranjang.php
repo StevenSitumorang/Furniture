@@ -9,5 +9,6 @@ class Keranjang extends Controller
     public function Keranjang()
     {
         return view('keranjang');
+        
     }
 }

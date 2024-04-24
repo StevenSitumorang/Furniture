@@ -36,7 +36,6 @@
             <div class="mt-6 lg:mt-0 lg:flex-1 ml-0">
                 <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4  text-justify">
                    
-
                     <div>
                         <h3 class="text-white-700 uppercase dark:text-white mb-10"><strong>Aldenaire</strong></h3>
                         <ul class="list-none mt-5">
