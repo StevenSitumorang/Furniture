@@ -15,7 +15,6 @@
       <div class="flex-1 text-center mr-40">HARGA</div> 
     </div>
 
-    <!-- Ulangi blok produk ini untuk setiap produk --> 
     <div class="bg-white shadow-md rounded-md overflow-hidden mb-6">
       <div class="flex items-center py-4 px-6 border-b border-gray-200">
         <div class="flex items-center flex-1">
