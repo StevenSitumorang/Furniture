@@ -1,61 +1,66 @@
-<div>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .register-container {
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 300px;
-    }
-    .register-container h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    .register-container form label {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .register-container form input[type="text"],
-    .register-container form input[type="password"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-    }
-    .register-container form input[type="submit"] {
-        width: 100%;
-        padding: 10px;
-        background-color: #4CAF50;
-        color: #fff;
-        border: none;
-        border-radius: 3px;
-        cursor: pointer;
-    }
-    .register-container form input[type="submit"]:hover {
-        background-color: #45a049;
-    }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.14.2/dist/daisyui.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <title>Registration Form</title>
+</head>
 <body>
-    <div class="register-container">
-        <h2>Halaman Registrasi</h2>
-        <form method="post" action="#">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password">
-            <input type="submit" value="Registrasi">
+    <div class="p-4 max-w-xl mx-auto">
+        <form class="bg-white shadow-md p-6 rounded">
+            <h2 class="text-2xl font-bold mb-4">Registration</h2>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="fullName">
+                    Full Name
+                </label>
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="fullName" type="text" name="fullName" required />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="email">
+                    Email
+                </label>
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" name="email" required />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="username">
+                    Username
+                </label>
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" name="username" required />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="phoneNumber">
+                    Phone Number
+                </label>
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phoneNumber" type="tel" name="phoneNumber" required />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="password">
+                    Password
+                </label>
+<input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" name="password" required />
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700 font-bold mb-2" for="confirmPassword">
+                    Confirm Password
+                </label>
+                <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="confirmPassword" type="password" name="confirmPassword" required />
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="form-control">
+                    <label class="cursor-pointer label">
+                        <span class="label-text">I hereby declare that the above information provided is true and correct</span>
+                        <input type="checkbox" class="checkbox checkbox-primary" required />
+                    </label>
+                </div>
+                <center>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                    Register
+                </button>
+            </center>
+            </div>
         </form>
     </div>
 </body>
-</div>
+</html>
